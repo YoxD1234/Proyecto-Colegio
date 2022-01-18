@@ -2,6 +2,9 @@
     margin: auto;
     padding: auto;
 }
+body{
+    overflow: hidden;
+}
 
 .logo{
     font-family: 'Montserrat', sans-serif;
@@ -31,6 +34,7 @@
 .nav{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    overflow: hidden;
 }
 .main {
     padding-top: 70px;

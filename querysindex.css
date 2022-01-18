@@ -90,9 +90,11 @@
         padding-right: 0px;
         padding-left: 0px;
         transform: translateX(100%);
+        display: none;
     }
     .menu-toggle{
         transform: translateX(0%);
+        display: grid;
     }
     .items p{
         grid-column: 11/12;
