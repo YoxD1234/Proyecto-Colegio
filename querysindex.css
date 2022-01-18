@@ -1,0 +1,121 @@
+@media only screen and (max-width:1070px){
+
+    .imagen1{
+        display: block;
+        padding: 0px 20px;
+        margin-bottom: -4px;
+        padding-left: 100px;
+    }
+    .redes{
+        display: none;
+    }
+
+}
+@media only screen and (max-width:860px){
+    .items{
+        display: block;
+    }
+    .chicamain{
+        width: 100%;
+    }
+    .ofrecemos{
+        text-align: center;
+    }
+    .menu-ofrecemos{
+        display: block;
+        background: #E2E2E2;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .menu-ofrecemos p{
+        background: #E2E2E2;
+        padding-bottom: 6px;
+    }
+    .ofrecemos-dos{
+        display: none
+    }
+    .matricula{
+        display: block;
+        
+    }
+    .matricula1{
+        text-align: center;
+    }
+    .matricula1 img{
+        width: 400px;
+        text-align: center;
+        
+    }
+    .matricula2{
+        text-align: center;
+        
+    }
+    .matricula2 img{
+        width: 370px;
+        text-align: center;
+        
+    }
+    .footer{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer div{
+        padding-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        padding-right:60px;
+    }
+    .logo{
+       margin-top: -2px;
+    }
+    .marca h1{
+        z-index: 1;
+        font-size: 52px;
+    }
+    .nav .menu-bar{
+        display: block;
+        grid-column: 11/12;
+        grid-row: 1/2;
+    }
+    .items{
+        position: absolute;
+        width: 60%;
+        height: 18vh;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        right: 0;
+        margin-top: 54px;
+        background-color: #ffffff;
+        padding-right: 0px;
+        padding-left: 0px;
+        transform: translateX(100%);
+    }
+    .menu-toggle{
+        transform: translateX(0%);
+    }
+    .items p{
+        grid-column: 11/12;
+    }
+
+}
+
+@media only screen and (max-width:518px){
+
+    .marca h1{
+        font-size: 38px;
+    }
+    .marca img{
+        width: 50px;
+    }
+    .matricula1 img{
+        width: 320px;
+        text-align: center;
+        
+    }
+    .matricula2 img{
+        width: 320px;
+        text-align: center;
+        
+    }
+}
