@@ -75,7 +75,7 @@
     }
     .nav .menu-bar{
         display: block;
-        grid-column: 11/12;
+        grid-column: 11/13;
         grid-row: 1/2;
     }
     .items{
@@ -90,11 +90,16 @@
         padding-right: 0px;
         padding-left: 0px;
         transform: translateX(100%);
+        transition: all 1s;
         display: none;
     }
+    .items a:hover{
+        color: #08c5bc;
+    }
     .menu-toggle{
-        transform: translateX(0%);
+        transform: translateX(8%);
         display: grid;
+        transition: all 1s;
     }
     .items p{
         grid-column: 11/12;
@@ -105,10 +110,10 @@
 @media only screen and (max-width:518px){
 
     .marca h1{
-        font-size: 38px;
+        font-size: 35px;
     }
     .marca img{
-        width: 50px;
+        width: 48px;
     }
     .matricula1 img{
         width: 320px;
@@ -119,5 +124,14 @@
         width: 320px;
         text-align: center;
         
+    }
+    .matricula h3{
+        font-size: 22px;
+    }
+    .matricula p{
+        font-size: 22px;
+    }
+    .ofrecemos, .menu-ofrecemos, .ofrecemos-dos p{
+        font-size: 14px;
     }
 }
