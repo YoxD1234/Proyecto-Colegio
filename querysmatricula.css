@@ -11,7 +11,7 @@
     }
 }
 
-@media only screen and (max-width:840px){
+@media only screen and (max-width:900px){
     .fondo {
         display: none;
     }
@@ -19,6 +19,13 @@
         padding: 0;
         margin: 0;
         overflow: hidden;
+    }
+    input{
+        padding: 6px 60px;
+        border-radius: 5px;
+        border: solid 1px rgb(110, 110, 110);
+        margin-bottom: 4px;
+        margin-top: 3px;
     }
 }
     
