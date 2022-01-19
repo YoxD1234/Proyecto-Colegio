@@ -14,6 +14,7 @@
 @media only screen and (max-width:860px){
     .items{
         display: block;
+        
     }
     .chicamain{
         width: 100%;
@@ -90,16 +91,14 @@
         padding-right: 0px;
         padding-left: 0px;
         transform: translateX(100%);
-        transition: all 1s;
         display: none;
     }
     .items a:hover{
         color: #08c5bc;
     }
     .menu-toggle{
-        transform: translateX(8%);
+        transform: translateX(0%);
         display: grid;
-        transition: all 1s;
     }
     .items p{
         grid-column: 11/12;
@@ -133,5 +132,18 @@
     }
     .ofrecemos, .menu-ofrecemos, .ofrecemos-dos p{
         font-size: 14px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width:325px){
+    .matricula1 img{
+        width: 240px;
+        text-align: center;
+        
+    }
+    .matricula2 img{
+        width: 240px;
+        text-align: center;
+        
     }
 }

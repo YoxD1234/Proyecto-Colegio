@@ -1,0 +1,24 @@
+@media only screen and (max-width:1070px){
+    .container{
+        overflow: hidden;
+    }
+    div .fondo{
+        margin: 0;
+        padding: 0;
+    }
+    .redes {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .fondo {
+        display: none;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+    

@@ -1,4 +1,123 @@
+*{
+    margin: auto;
+}
 a{
     text-decoration: none;
     color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+.datos{
+    grid-column: 1/6;
+    grid-row: 1/13;
+    text-align: center;
+    position: relative;
+}
+.fondo {
+    margin: 0;
+    padding: 0;
+    width: 58vw;
+    height: 100vh;
+    grid-column: 6/13;
+    grid-row: 1/13;
+    background: url(img/ruben-rodriguez-IXTvnOOSTyU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    overflow: hidden;
+}
+.fondo:before{
+    content: "";
+    width: 58%;
+    min-height: 100vh;
+    position: absolute;
+    background: linear-gradient(90deg, rgb(162, 255, 250), rgb(227, 185, 255));
+    opacity: .3;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.formulario {
+    grid-column: 2/6;
+    text-align: left;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.formulario h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px
+}
+.formulario span{
+    color: rgb(1, 1, 177);
+}
+.formulario button{
+    padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+input{
+    padding: 6px 80px;
+    border-radius: 5px;
+    border: solid 1px rgb(110, 110, 110);
+    margin-bottom: 4px;
+    margin-top: 3px;
+}
+.checktext{
+    display: inline;
+}
+.logo img{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.logotesla img{
+    width: 66px;
+    padding-left: 8px;
+}
+.logotesla{
+    position: absolute;
+    top: 61px;
+    left: 30px;
+}
+.titulo1{
+    font-size:32px;
+    position: absolute;
+    top: 36px;
+    left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo2{
+    font-size:32px;
+    position: absolute;
+    top: 92px;
+    left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.copy{
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+.redes {
+    width: 10%;
+    position: absolute;
+     min-width: 20px;
+     min-height: 100px;
+     background-color: #E2E2E2;
+     right: 0;
+ }
+.elements img{
+    width: 34px;
+    display: block;
+    padding: 14px 12px;
+    padding-right: 30px;
 }
