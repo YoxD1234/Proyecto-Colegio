@@ -30,7 +30,6 @@ a{
     background-size: cover;
     background-size: 100% 100%;
     background-position: center;
-    
     overflow: hidden;
 }
 .fondo:before{
@@ -39,7 +38,7 @@ a{
     min-height: 100vh;
     position: absolute;
     background: linear-gradient(90deg, rgb(162, 255, 250), rgb(227, 185, 255));
-    opacity: .3;
+    opacity: .2;
 }
 .form{
     display: grid;
@@ -64,7 +63,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 500;
-    border-radius: 6px;
+    border-radius: 10px;
     border: none;
     background-color: #c5c5c5;
 }
@@ -76,9 +75,6 @@ input{
     margin-bottom: 4px;
     margin-top: 3px;
 }
-input #Element8{
-    width: 10px;
-}
 .checktext{
     display: inline;
 }
@@ -89,8 +85,6 @@ input #Element8{
 }
 .logo img{
     width: 50px;
-    top: 20px;
-    left: 20px;
 }
 .logotesla img{
     width: 66px;
@@ -120,7 +114,6 @@ input #Element8{
     color: rgb(110, 110, 110);
 }
 .redes {
-    width: 10%;
     position: absolute;
      min-width: 20px;
      min-height: 100px;

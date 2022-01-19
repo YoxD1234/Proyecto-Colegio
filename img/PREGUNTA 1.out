@@ -1,0 +1,99 @@
+
+                                      ARENA Simulation Results
+                                      Yo - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/19/2022
+Analyst: Rockwell Automation                                         Model revision date: 1/19/2022
+
+Replication ended at time      : 7200.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIEMPO EN SISTEMA 1                         1113.2     (Corr)     4.3408     2024.9        451    
+TIEMPO EN SISTEMA 2                         182.20     (Corr)     .40564     655.29        623    
+TIEMPO EN SISTEMA 3                         48.981     6.7462     .10288     210.47        591    
+SOLICITUD 1.VATime                          15.925     1.5132     .01934     98.252        451    
+SOLICITUD 1.NVATime                         .00000     .00000     .00000     .00000        451    
+SOLICITUD 1.WaitTime                        1097.2     (Corr)     .00000     2013.8        451    
+SOLICITUD 1.TranTime                        .00000     .00000     .00000     .00000        451    
+SOLICITUD 1.OtherTime                       .00000     .00000     .00000     .00000        451    
+SOLICITUD 1.TotalTime                       1113.2     (Corr)     4.3408     2024.9        451    
+SOLICITUD 2.VATime                          30.467     2.0956     .02594     182.95        623    
+SOLICITUD 2.NVATime                         .00000     .00000     .00000     .00000        623    
+SOLICITUD 2.WaitTime                        151.74     (Corr)     .00000     633.94        623    
+SOLICITUD 2.TranTime                        .00000     .00000     .00000     .00000        623    
+SOLICITUD 2.OtherTime                       .00000     .00000     .00000     .00000        623    
+SOLICITUD 2.TotalTime                       182.20     (Corr)     .40564     655.29        623    
+SOLICITUD 3.VATime                          28.606     2.5733     .10288     171.20        591    
+SOLICITUD 3.NVATime                         .00000     .00000     .00000     .00000        591    
+SOLICITUD 3.WaitTime                        20.374     5.1927     .00000     116.22        591    
+SOLICITUD 3.TranTime                        .00000     .00000     .00000     .00000        591    
+SOLICITUD 3.OtherTime                       .00000     .00000     .00000     .00000        591    
+SOLICITUD 3.TotalTime                       48.981     6.7462     .10288     210.47        591    
+PROCESO DE ATENCION 1.Queue.WaitingTime     1099.1     (Corr)     .00000     2013.8        452    
+PROCESO DE ATENCION 2 1.Queue.WaitingTime   110.89     (Insuf)    .00000     326.10        221    
+PROCESO DE ATENCION 2 2.Queue.WaitingTime   194.72     (Insuf)    .00000     552.96        197    
+PROCESO DE ATENCION 3.Queue.WaitingTime     20.508     5.8782     .00000     116.22        594    
+PROCESO DE ATENCION 2 3.Queue.WaitingTime   155.72     (Insuf)    .00000     633.94        208    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+SOLICITUD 1.WIP                             91.585     (Corr)     .00000     166.00     162.00    
+SOLICITUD 2.WIP                             16.529     (Corr)     .00000     28.000     28.000    
+SOLICITUD 3.WIP                             4.0571     .75308     .00000     13.000     3.0000    
+ABOGADO_EXPERTO.NumberBusy                  .99774     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO_EXPERTO.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ABOGADO_EXPERTO.Utilization                 .99774     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 1.NumberBusy                        .91594     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ABOGADO 1.Utilization                       .91594     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 2.NumberBusy                        .82975     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ABOGADO 2.Utilization                       .82975     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 3.NumberBusy                        .90911     (Insuf)    .00000     1.0000     1.0000    
+ABOGADO 3.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ABOGADO 3.Utilization                       .90911     (Insuf)    .00000     1.0000     1.0000    
+EMPLEADO.NumberBusy                         2.3651     .19765     .00000     3.0000     3.0000    
+EMPLEADO.NumberScheduled                    3.0000     (Insuf)    3.0000     3.0000     3.0000    
+EMPLEADO.Utilization                        .78840     .06588     .00000     1.0000     1.0000    
+PROCESO DE ATENCION 1.Queue.NumberInQueue   90.588     (Corr)     .00000     165.00     161.00    
+PROCESO DE ATENCION 2 1.Queue.NumberInQueu  3.5340     (Corr)     .00000     10.000     7.0000    
+PROCESO DE ATENCION 2 2.Queue.NumberInQueu  5.8305     (Corr)     .00000     16.000     14.000    
+PROCESO DE ATENCION 3.Queue.NumberInQueue   1.6919     .58772     .00000     10.000     .00000    
+PROCESO DE ATENCION 2 3.Queue.NumberInQueu  4.5101     (Corr)     .00000     15.000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+SOLICITUD 1.NumberIn                        613.00    
+SOLICITUD 1.NumberOut                       451.00    
+SOLICITUD 2.NumberIn                        651.00    
+SOLICITUD 2.NumberOut                       623.00    
+SOLICITUD 3.NumberIn                        594.00    
+SOLICITUD 3.NumberOut                       591.00    
+ABOGADO_EXPERTO.NumberSeized                452.00    
+ABOGADO_EXPERTO.ScheduledUtilization        .99774    
+ABOGADO 1.NumberSeized                      221.00    
+ABOGADO 1.ScheduledUtilization              .91594    
+ABOGADO 2.NumberSeized                      197.00    
+ABOGADO 2.ScheduledUtilization              .82975    
+ABOGADO 3.NumberSeized                      208.00    
+ABOGADO 3.ScheduledUtilization              .90911    
+EMPLEADO.NumberSeized                       594.00    
+EMPLEADO.ScheduledUtilization               .78840    
+System.NumberOut                            1665.0    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
