@@ -11,9 +11,16 @@
     }
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:920px){
     .fondo {
-        display: none;
+        width: 52vw;
+        height: 100vh;
+        grid-column: 7/13;
+    }
+    .fondo:before{
+        content: "";
+        width: 50%;
+
     }
     .container{
         padding: 0;
@@ -21,11 +28,27 @@
         overflow: hidden;
     }
     input{
-        padding: 6px 60px;
-        border-radius: 5px;
-        border: solid 1px rgb(110, 110, 110);
-        margin-bottom: 4px;
-        margin-top: 3px;
+        width: 260px;
+    }
+    .formulario {
+        padding-top: 100px;
+    }
+    .logo{
+        margin-top: 10px;
     }
 }
+@media only screen and (max-width:660px){
+    .fondo {
+       display: none;
+    }
+    .formulario {
+        padding-top: 100px;
+    }
+    .logo{
+        margin-top: 10px;
+        padding-left: 4px;
+    }
+}
+    
+
     
