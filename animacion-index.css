@@ -1,0 +1,13 @@
+.animacion-opacidad{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: animacion-opacidad;
+}
+@keyframes animacion-opacidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
