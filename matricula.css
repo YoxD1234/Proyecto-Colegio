@@ -58,6 +58,7 @@ a{
     color: rgb(1, 1, 177);
 }
 .formulario button{
+    cursor: pointer;
     margin: 2px;
     padding: 6px 12px;
     font-family: 'Poppins', sans-serif;
