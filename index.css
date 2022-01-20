@@ -9,7 +9,6 @@
     padding-top: 10px;
     padding-left: 10px;
 }
-
 .logo img{
     padding-top: 8px;
     width: 54px;
@@ -58,17 +57,24 @@
 .imagen1 {
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr 48px;
+    
 }
 .chicamain {
     width: 640px;
-    grid-column:6/13;
+    grid-column:5/13;
     grid-row: 1/3;
 }
 
-.redes i{
-    padding: 6px;
-    padding-left: 20px;
-    width: 46px;
+.redes1{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    background-color: #E2E2E2;
+    padding: 8px;
+}
+.redes1 a img{
+    padding-left: 18px;
+    width: 30px;
 }
 .icono {
     color: #4F4F4F;
@@ -143,7 +149,7 @@
 .click button{
     font-size: 100%;
     color: black;
-    padding: 6px 22px;
+    padding: 12px 28px;
     border-radius: 14px;
     background: #E2E2E2;
     border: none;
