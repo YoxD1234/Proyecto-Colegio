@@ -57,8 +57,10 @@
 .imagen1 {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 1fr 48px;
-    
+    grid-template-rows: 1fr 48px;  
+    background-image: url(img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .chicamain {
     width: 640px;

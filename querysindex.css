@@ -10,7 +10,7 @@
     .redes1{
         position: absolute;
         left: 0;
-        top: 20px;
+        top: 56%;
     }
     .redes1 img{
         display: block;
@@ -115,9 +115,12 @@
         width: 30px;
     }
     .redes1 a img{
-        width: 22px;
+        width: 94%;
         padding: 0;
         padding: 6px;
+    }
+    .redes1{
+        padding: 4px;
     }
 }
 
@@ -149,7 +152,32 @@
         font-size: 14px;
         width: 100vw;
     }
+    .redes1 a img{
+        width: 80%;
+    }
 }
+
+
+@media only screen and (max-width:450px){
+    .redes1 {
+        display: flex;
+        width: 100%;
+        bottom: 0;
+        height: 0px;
+        width: 40px;
+    }
+    .redes1 a img{
+        width: 120%;
+    }
+    .redes1 a {
+        padding: 0px 6px;
+    }
+    
+}
+
+
+
+
 @media only screen and (max-width:325px){
     .matricula1 img{
         width: 240px;
