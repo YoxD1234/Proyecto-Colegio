@@ -152,25 +152,12 @@
         font-size: 14px;
         width: 100vw;
     }
-    .redes1 a img{
-        width: 80%;
-    }
 }
 
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:650px){
     .redes1 {
-        display: flex;
-        width: 100%;
-        bottom: 0;
-        height: 0px;
-        width: 40px;
-    }
-    .redes1 a img{
-        width: 160%;
-    }
-    .redes1 a {
-        padding-left: 8px;
+        display: none;
     }
     
 }
