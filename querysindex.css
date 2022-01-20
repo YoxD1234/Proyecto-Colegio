@@ -167,10 +167,10 @@
         width: 40px;
     }
     .redes1 a img{
-        width: 120%;
+        width: 160%;
     }
     .redes1 a {
-        padding: 0px 6px;
+        padding-left: 8px;
     }
     
 }

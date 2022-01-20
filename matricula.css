@@ -45,9 +45,9 @@ a{
     grid-template-columns: repeat(12,1fr);
 }
 .formulario {
+    padding-top: 70px;
     grid-column: 2/6;
     text-align: left;
-    padding-top: 70px;
     font-family: 'Poppins', sans-serif;
 }
 .formulario h3{
@@ -72,8 +72,7 @@ input{
     padding: 6px 10px;
     border-radius: 5px;
     border: solid 1px rgb(110, 110, 110);
-    margin-bottom: 4px;
-    margin-top: 3px;
+
 }
 .checktext{
     display: inline;
@@ -111,6 +110,7 @@ input{
 }
 .copy{
     font-size: 12px;
+    padding-top: 10px;
     color: rgb(110, 110, 110);
 }
 .redes {
