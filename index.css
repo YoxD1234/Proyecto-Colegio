@@ -186,7 +186,7 @@
     font-size: 14px;
     padding: 6px 0px;
     background: #C4C4C4;
-    display: flex;
+    grid-column:8/13;
 }
 
 .menu-bar{
