@@ -13,7 +13,7 @@
 
 @media only screen and (max-width:920px){
     .fondo {
-        width: 52vw;
+        width: 51vw;
         height: 100vh;
         grid-column: 7/13;
     }
