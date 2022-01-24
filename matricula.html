@@ -5,75 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="matricula.css">
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="matricula.css">
-    <link rel="stylesheet" href="querysindex.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="querysmatricula.css">
     <title>Matrícula</title>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-        <a href="index.html"><img src="img/CT.PNG" alt="" ></a>
+    <form action="" class="form" >
+        <div class="container_form">
+            <h2>Matrícula 2023</h2> 
+            <label for="DNI">DNI</label>
+            <input type="text" name="DNI" required>
+            <label for="NOMBRES">Nombres</label>
+            <input type="text" name="NOMBRES" required>
+            <label for="APELLIDOS">Apellidos</label>
+            <input type="text" name="APELLIDOS" required>
+            <label for="SEDE">Sede</label>
+            <input type="text" name="SEDE" required>
+            <label for="GRADO">Grado</label>
+            <input type="number" name="GRADO" min="0" max="7" required><br>
+            <input class="button" type="submit" value="Ingresar" >
         </div>
-        <div class="logotesla">
-            <img src="img/logotesla.PNG" alt="">
-        </div>
-        <div class="titulo1">
-            <h2>Colegios</h2>
-        </div>
-        <div class="titulo2">
-            <h2> Tesla</h2>
-        </div>
-        
-        <div class="datos">
-                <div class="form">
-                    <div class="formulario">
-                        <br><br><br>
-                        <h3>Matrícula 2023</h3>
-                        <div class="redes">
-                            <div class="elements">
-                            <img src="img/bxl-facebook-square.svg" alt="" srcset="">
-                            <img src="img/bxl-instagram-alt.svg" alt="" srcset="">
-                            <img src="img/bxl-twitter.svg" alt="">
-                            <img src="img/bxl-whatsapp.svg" alt="">
-                        </div>
-                        </div>
-                        <form action="" method="POST">
-                        <label for="Element1">Dni:</label>
-                        <input id="Element1" type="text" required>
-                        <label for="Element2">Nombres:</label>
-                        <input id="Element2" type="text" required>
-                        <label for="Element3">Apellido Paterno:</label>
-                        <input id="Element3" type="text" required>
-                        <label for="Element4">Apellido Materno:</label>
-                        <input id="Element4" type="text" required>
-                        <label for="Element5">Teléfono:</label>
-                        <input id="Element5" type="text" required>
-                        <label for="Element6">Sede:</label>
-                        <input id="Element6" type="text" required>
-                        <label for="Element7">Grado:</label>
-                        <input id="Element7" type="number" required max="6" min="0">    
-                        <p class="checktext">Hé Leído y Acepto los <span> Términos</span> y <span> Condiciones</span></p>
-                        <input id="Element8" type="checkbox" required>
-                        <br><br>
-                        <a href="index.html"><button>Registrarme</button></a><br>
-                        <p class="copy">Coyright@2022. Derechos reservados.</p>
-                        </form required>   
-                    </div>
-                </div>
-        </div>
-        <div class="fondo">
-
-        </div>
-    </div>
+    </form>
 </body>
 </html>

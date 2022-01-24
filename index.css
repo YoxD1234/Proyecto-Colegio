@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap');
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .logo{
@@ -17,7 +18,7 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     font-size: 18px;
-    grid-column: 6/13;
+    grid-column: 8/13;
 }
 .items p{
     padding-top: 8px;
@@ -36,6 +37,7 @@
     display: grid;
     grid-template-columns: repeat(12,1fr);
     overflow: hidden;
+    align-items: center;
 }
 .main {
     padding-top: 70px;
@@ -48,11 +50,12 @@
 }
 .marca img{
     width: 100px;
+    height: 95px;
 }
 .marca{
     width: 70%;
     display: flex;
-    grid-column: 1/5;
+    grid-column: 2/6;
 }
 .imagen1 {
     display: grid;
@@ -87,6 +90,7 @@
     display: grid;
     grid-template-columns: repeat(12,1fr);
     padding-bottom: 10px;
+    text-align: center;
 }
 .ofrecemos h2{
     font-family: 'Poppins', sans-serif;
@@ -99,9 +103,11 @@
     margin-bottom: 0;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 .menu-ofrecemos p{
     padding-top: 10px;
+    padding-bottom: 40px;
     margin: 0;
     font-size: 118%;
     font-family: 'Poppins', sans-serif;
@@ -145,6 +151,9 @@
 .matricula2 img{
     width: 82%;
 }
+.click button{
+    cursor: pointer;
+}
 .click h3{
     font-size: 180%;
 }
@@ -158,29 +167,13 @@
     margin: 15px 14px;
     font-family: 'Poppins', sans-serif;
 }
-.click button a:hover{
+.click a button:hover{
     color: #08c5bc;
+    box-shadow: 1px solid #000000;
+    background: rgb(204, 204, 204);
     
 }
-.footer{
-    background: #C4C4C4;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 1fr;
-    gap: 10px;
-    padding: 10px 30px;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(68, 68, 68);
-}
-.footer1{
-    grid-column: 1/4;
-}
-.footer2{
-    grid-column: 5/8;
-}
-.footer3{
-    grid-column: 9/13;
-}
+
 .cc{
     color:#5a5959;
     font-size: 14px;
@@ -192,4 +185,82 @@
 .menu-bar{
     display: none;
     cursor: pointer;
+}
+
+.space{
+    height: 33.5vh;
+    background-color: rgb(255, 255, 255);
+}
+.logo2{
+    display: flex;
+}
+.logo2 img{
+    padding-right: 10px;
+}
+footer{
+    margin: 0;
+    background:linear-gradient(180deg,rgb(255, 255, 255),rgb(136, 136, 136),rgb(49, 49, 49));
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-container{
+    padding: 10px;
+    color: black;
+}
+.footer-container h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-container h3,p{
+    padding: 8px;
+}
+footer{
+    font-size: 16px;
+}
+.redesf{
+    display: grid;
+    align-items: center;
+}
+.redesf img{
+    padding: 10px;
+    width: 34px;
+    align-items: justify;
+    text-align: left;
+}
+.red{
+    display: flex;
+}
+span{
+    color: rgb(2, 170, 170);
+}
+.aea{
+    min-height: 1px;
+    background-color: rgb(49, 49, 49);
+}
+.cc{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    color: rgb(173, 173, 173);
+}
+
+.space2{
+    min-height: 20vh;
+    background: rgb(255, 255, 255);
+}
+.logo2 img{
+    width: 30px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a3a3;
+}
+.ofre{
+    padding-bottom: 40px;
 }

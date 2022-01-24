@@ -1,54 +1,7 @@
-@media only screen and (max-width:1070px){
-    .container{
-        overflow: hidden;
-    }
-    div .fondo{
-        margin: 0;
-        padding: 0;
-    }
-    .redes {
-        display: none;
-    }
-}
 
-@media only screen and (max-width:920px){
-    .fondo {
-        width: 51vw;
-        height: 100vh;
-        grid-column: 7/13;
-    }
-    .fondo:before{
-        content: "";
-        width: 50%;
-
-    }
-    .container{
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-    }
-    input{
-        width: 260px;
-    }
-    .formulario {
-        padding-top:60px;
-    }
-    .logo{
-        margin-top: 10px;
-    }
-}
-@media only screen and (max-width:660px){
-    .fondo {
-       display: none;
-    }
-    .formulario {
-        padding-top: 100px;
-    }
-    .logo{
-        margin-top: 10px;
-        padding-left: 4px;
-    }
-}
+@media only screen and (max-width:380px) {
     
-
-    
+    body{
+        background:none;
+    }
+}

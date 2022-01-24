@@ -65,16 +65,7 @@
         text-align: center;
         
     }
-    .footer{
-        display: block;
-        font-family: 'Roboto', sans-serif;
-    }
 
-    .footer div{
-        padding-bottom: 10px;
-        font-family: 'Roboto', sans-serif;
-        padding-right:60px;
-    }
     .logo{
        margin-top: -2px;
     }
@@ -131,6 +122,7 @@
     }
     .marca img{
         width: 48px;
+        height: 46px;
     }
     .matricula1 img{
         width: 320px;
