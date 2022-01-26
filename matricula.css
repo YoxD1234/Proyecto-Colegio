@@ -31,7 +31,6 @@ form{
     align-items: center center;
    display: grid;
    align-self: center;
-   justify-self: center;
    padding: 50px;
    border:2px solid rgb(255, 255, 255);
 }
@@ -63,4 +62,49 @@ form{
     background:rgb(66, 66, 66);
     color: white;
     transform: scale(1.05);
+ }
+ .logo{
+     padding: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     width: 30px;
+     height: 30px;
+ }
+ span{
+     color: aqua;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ .contenedor{
+     display: grid;
+     grid-template-columns: repeat(12,1fr);
+ }
+ .mitad1{
+     grid-column: 1/6;
+ }
+ .mitad2{
+     grid-column: 6/13;
+     background-image: url(img/ruben-rodriguez-IXTvnOOSTyU-unsplash.jpg);
+     background-position: center;
+     background-size: cover;
+     opacity: .88;
+ }
+ .mitad2::before{
+     content: '';
+     position: absolute;
+     background:red;
+     z-index: 1;
+ }
+ .check{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .check input{
+     width: 15px;
+ }
+ .check p{
+     font-size: 15px;
  }

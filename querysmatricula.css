@@ -6,3 +6,32 @@
         background-position: center center;
     }
 }
+@media only screen and (max-width:873px) {
+    
+    .mitad2{
+        grid-column: 7/13;
+    }
+    .mitad1{
+        grid-column: 1/6;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:760px) {
+    
+    .mitad2{
+        grid-column: 8/13;
+    }
+}
+@media only screen and (max-width:640px) {
+    
+    .mitad2{
+        display: none;
+    }
+    .mitad1{
+        grid-column: 1/13;
+        padding-left: 0;
+    }
+    .container_form{
+        padding: 30px;
+    }
+}

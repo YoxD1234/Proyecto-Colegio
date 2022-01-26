@@ -9,21 +9,37 @@
     <title>Matrícula</title>
 </head>
 <body>
-    <form action="" class="form" >
-        <div class="container_form">
-            <h2>Matrícula 2023</h2> 
-            <label for="DNI">DNI</label>
-            <input type="text" name="DNI" required>
-            <label for="NOMBRES">Nombres</label>
-            <input type="text" name="NOMBRES" required>
-            <label for="APELLIDOS">Apellidos</label>
-            <input type="text" name="APELLIDOS" required>
-            <label for="SEDE">Sede</label>
-            <input type="text" name="SEDE" required>
-            <label for="GRADO">Grado</label>
-            <input type="number" name="GRADO" min="0" max="7" required><br>
-            <input class="button" type="submit" value="Ingresar" >
+    <div class="contenedor">
+        <div class="mitad1">
+            <div class="logo">
+                <a href="index.html">
+                    <h3>C<span>T</span></h3>
+                </a>
+            </div>
+            <form action="" class="form" >
+                <div class="container_form">
+                    <h2>Matrícula 2023</h2> 
+                    <label for="DNI">DNI</label>
+                    <input type="text" name="DNI" required>
+                    <label for="NOMBRES">Nombres</label>
+                    <input type="text" name="NOMBRES" required>
+                    <label for="APELLIDOS">Apellidos</label>
+                    <input type="text" name="APELLIDOS" required>
+                    <label for="SEDE">Sede</label>
+                    <input type="text" name="SEDE" required>
+                    <label for="GRADO">Grado</label>
+                    <input type="number" name="GRADO" min="0" max="7" required><br>
+                    <div class="check">
+                        <input type="checkbox" name="" id=""><p>Acepto <span>Términos</span> y <span>Condiciones</span></p>
+                    </div> 
+                    <input class="button" type="submit" value="Ingresar" >
+                    
+                </div>
+            </form>
         </div>
-    </form>
+        <div class="mitad2">
+
+        </div>
+    </div>
 </body>
 </html>
