@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="matricula.css">
+    <link rel="stylesheet" href="querysmatricula.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Matrícula</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="mitad1">
+            <div class="logo">
+                <a href="index.html">
+                    <h3><span>G</span>onzalo</h3>
+                </a>
+            </div>
+            <form action="" class="form" >
+                <div class="container_form">
+                    <h2>Matrícula 2023</h2> 
+                    <label for="DNI">DNI</label>
+                    <input type="text" name="DNI" required>
+                    <label for="NOMBRES">Nombres</label>
+                    <input type="text" name="NOMBRES" required>
+                    <label for="APELLIDOS">Apellidos</label>
+                    <input type="text" name="APELLIDOS" required>
+                    <label for="SEDE">Sede</label>
+                    <input type="text" name="SEDE" required>
+                    <label for="GRADO">Grado</label>
+                    <input type="number" name="GRADO" min="0" max="7" required><br>
+                    <div class="check">
+                        <input type="checkbox" required><p>Acepto <span>Términos</span> y <span>Condiciones</span></p>
+                    </div> 
+                    <input class="button" type="submit" value="Ingresar" >
+                    
+                </div>
+            </form>
+        </div>
+        <div class="mitad2">
+
+        </div>
+    </div>
+</body>
+</html>
